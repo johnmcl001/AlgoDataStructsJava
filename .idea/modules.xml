@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AlgoDataStructsJava.iml" filepath="$PROJECT_DIR$/.idea/AlgoDataStructsJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CircularlyLinkedList/CircularlyLinkedList.iml" filepath="$PROJECT_DIR$/CircularlyLinkedList/CircularlyLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DoublyLinkedLists/DoublyLinkedLists.iml" filepath="$PROJECT_DIR$/DoublyLinkedLists/DoublyLinkedLists.iml" />
       <module fileurl="file://$PROJECT_DIR$/SinglyLinkedLists/SinglyLinkedLists.iml" filepath="$PROJECT_DIR$/SinglyLinkedLists/SinglyLinkedLists.iml" />
     </modules>
   </component>

@@ -3,9 +3,9 @@
 ## Checklist
 
 * [ ] Arrays
-* [ ] Singly Linked Lists
-* [ ] Circularly Linked Lists
-* [ ] Doubly Linked Lists
+* [x] Singly Linked Lists
+* [x] Circularly Linked Lists
+* [x] Doubly Linked Lists
 * [ ] Stacks
 * [ ] Queues
 * [ ] Double-Ended Queues
