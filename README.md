@@ -6,8 +6,8 @@
 * [x] Singly Linked Lists
 * [x] Circularly Linked Lists
 * [x] Doubly Linked Lists
-* [ ] Stacks
-* [ ] Queues
+* [x] Stacks
+* [x] Queues
 * [ ] Double-Ended Queues
 * [ ] Array Lists
 * [ ] Positional List
