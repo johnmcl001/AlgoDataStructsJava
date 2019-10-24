@@ -1,7 +1,10 @@
-public class LinkedQueue<E> implements Queue<E> {
+public class LinkedCircularQueue<E> implements CircularQueue<E>{
   private SinglyLinkedList<E> list = new SinglyLinkedList<>();
 
-  public LinkedQueue(){};
+  @Override
+  public void rotate() {
+    list.addLast(list.removeFirst());
+  }
 
   @Override
   public int size() {
@@ -26,5 +29,10 @@ public class LinkedQueue<E> implements Queue<E> {
   @Override
   public void enqueue(E e) {
     list.addLast(e);
+  }
+
+  @Override
+  public String toString(){
+    return list.toString();
   }
 }

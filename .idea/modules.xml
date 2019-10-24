@@ -5,7 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/AlgoDataStructsJava.iml" filepath="$PROJECT_DIR$/.idea/AlgoDataStructsJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/CircularlyLinkedList/CircularlyLinkedList.iml" filepath="$PROJECT_DIR$/CircularlyLinkedList/CircularlyLinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/DoublyLinkedLists/DoublyLinkedLists.iml" filepath="$PROJECT_DIR$/DoublyLinkedLists/DoublyLinkedLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lists/Lists.iml" filepath="$PROJECT_DIR$/Lists/Lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Queues/Queues.iml" filepath="$PROJECT_DIR$/Queues/Queues.iml" />
       <module fileurl="file://$PROJECT_DIR$/SinglyLinkedLists/SinglyLinkedLists.iml" filepath="$PROJECT_DIR$/SinglyLinkedLists/SinglyLinkedLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stacks/Stacks.iml" filepath="$PROJECT_DIR$/Stacks/Stacks.iml" />
     </modules>
   </component>
 </project>

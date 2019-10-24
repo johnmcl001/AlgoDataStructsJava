@@ -1,4 +1,4 @@
-public class SinglyLinkedList<E> {
+public class SinglyLinkedList<E> implements Cloneable{
 
   // Nested Node class
   private static class Node<E>{
@@ -92,4 +92,71 @@ public class SinglyLinkedList<E> {
     return answer;
   }
 
+  // Equivalence Testing
+
+  /**
+   * Checks if two linked lists are equal
+   * @param o, another object
+   * @return boolean, true if objects are equal, else false
+   */
+  public boolean equals(Object o){
+    if (o == null){
+      return false;
+    }
+
+    if (getClass() != o.getClass()){
+      return false;
+    }
+
+    SinglyLinkedList<E> other = (SinglyLinkedList) o;
+
+    Node<E> walkA = head;
+    Node<E> walkB = other.head;
+
+    while (walkA != null){
+      if (walkA.getElement() != walkB.getElement()){
+        return false;
+      }
+      walkA = walkA.getNext();
+      walkB = walkB.getNext();
+    }
+
+    return true;
+  }
+
+  // Cloning
+
+  public SinglyLinkedList<E> clone() throws CloneNotSupportedException{
+    SinglyLinkedList<E> other = (SinglyLinkedList<E>) super.clone();
+
+    if (size > 0){
+      other.head = new Node<>(head.getElement(), null);
+      Node<E> walk = head.getNext();
+      Node<E> otherTail = other.head;
+      while(walk != null){
+        Node<E> newNode = new Node<>(walk.getElement(), null);
+        otherTail.setNext(newNode);
+        otherTail = newNode;
+        walk = walk.getNext();
+      }
+    }
+    return other;
+  }
+
+  // String Representation
+
+  /**
+   *  Returns string representation of linked list
+   * @return String showing elements
+   */
+  @Override
+  public String toString(){
+    Node<E> temp = head;
+    String s = "";
+    while (temp != null){
+      s += temp.getElement() + " ";
+      temp = temp.getNext();
+    }
+    return s;
+  }
 }

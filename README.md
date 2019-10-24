@@ -8,8 +8,8 @@
 * [x] Doubly Linked Lists
 * [x] Stacks
 * [x] Queues
-* [ ] Double-Ended Queues
-* [ ] Array Lists
+* [x] Double-Ended Queues
+* [x] Array Lists
 * [ ] Positional List
 * [ ] Iterators
 * [ ] General Trees
